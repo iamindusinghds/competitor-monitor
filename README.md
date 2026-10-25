@@ -3,7 +3,9 @@
 Enter a competitor's domain. The tool finds their blog posts, flags what's new since the last check,
 looks up keyword + search volume, tracks pricing page changes, and sends a Slack alert.
 
-**Live demo:** <your-hosted-link>  |  **Loom:** <your-loom-link>
+**Live demo:** https://competitor-monitor-rti8.onrender.com  
+**GitHub repository:** https://github.com/iamindusinghds/competitor-monitor  
+**Loom demo:** Add your recording link before submission.
 
 > Slack alerts, keyword volume and the database path are configured with environment variables (see `.env.example`). No secrets are stored in this repo.
 
@@ -22,6 +24,12 @@ looks up keyword + search volume, tracks pricing page changes, and sends a Slack
    Works without a key (shows n/a with the reason).
 5. **Alert:** Slack incoming webhook: "domain published N new posts since the last check" with titles, URLs,
    keyword + volume, and any pricing change.
+ 
+   ## Manual verification
+
+- Initial scans completed for hubspot.com, semrush.com, and ahrefs.com.
+- Repeat scans returned 0 new posts during testing.
+- An invalid domain returned an `unreachable` status with an error message.
 
 ## Failure handling
 | Case | Behavior |
