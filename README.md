@@ -5,7 +5,7 @@ looks up keyword + search volume, tracks pricing page changes, and sends a Slack
 
 **Live demo:** https://competitor-monitor-rti8.onrender.com  
 **GitHub repository:** https://github.com/iamindusinghds/competitor-monitor  
-**Loom demo:** [Add your recording link before submission.](https://www.loom.com/share/293e029c7cad49b8a5bbc7cf5787f883)
+**Loom demo:** (https://www.loom.com/share/293e029c7cad49b8a5bbc7cf5787f883)
 
 > Slack alerts, keyword volume and the database path are configured with environment variables (see `.env.example`). No secrets are stored in this repo.
 
